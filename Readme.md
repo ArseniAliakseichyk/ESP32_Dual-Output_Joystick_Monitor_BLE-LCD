@@ -24,23 +24,6 @@ This project uses an ESP32 board and two joysticks. It shows joystick positions 
 
 ---
 
-## 🔌 ESP32 Pin Connections
-
-| ESP32 Pin | Joystick 1 | Joystick 2 | LCD      |
-|-----------|------------|------------|----------|
-| GPIO0     | X          |            |          |
-| GPIO1     | Y          |            |          |
-| GPIO2     |            | Y          |          |
-| GPIO3     |            | X          |          |
-| GPIO9     | Button     |            |          |
-| GPIO4     |            |            | MOSI     |
-| GPIO5     |            |            | CLK      |
-| GPIO6     |            |            | CS       |
-| GPIO7     |            |            | DC       |
-| GPIO8     |            |            | RST      |
-
----
-
 ## 🖥️ Python BLE Console Monitor
 
 You can view the joystick data in your terminal using the Python script.
