@@ -133,7 +133,7 @@ class BLEJoystickReader:
         return False
 
     async def read_data(self):
-        raw = await self.client.read_gatt_char("00002a29-0000-1000-8000-00805f9b34fb")
+        raw = await self.client.read_gatt_char("00005678-0000-1000-8000-00805f9b34fb")
         data = raw.decode().strip().split(',')
         return {
             'x1': int(data[0]), 'y1': int(data[1]),
